@@ -8,3 +8,5 @@ obj/
 *.iml
 Gemfile.lock
 _site/
+app/src/main/res/values/secrets.xml
+**/*/res/values/secrets.xml

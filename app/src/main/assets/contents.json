@@ -1,120 +1,1089 @@
 {
-  "android_play_store_link": "",
-  "ios_app_store_link": "",
-  "sticker_packs": [
-    {
-      "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
-      "image_data_version":"1",
-      "avoid_cache":false,
-      "publisher_email":"",
-      "publisher_website": "",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "stickers": [
-        {
-          "image_file": "01_Cuppy_smile.webp",
-          "emojis": ["☕","🙂"]
-        },
-        {
-          "image_file": "02_Cuppy_lol.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "03_Cuppy_rofl.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "04_Cuppy_sad.webp",
-          "emojis": ["😩","😰"]
-        },
-        {
-          "image_file": "05_Cuppy_cry.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "06_Cuppy_love.webp",
-          "emojis": ["😍","♥"]
-        },
-        {
-          "image_file": "07_Cuppy_hate.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "08_Cuppy_lovewithmug.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "10_Cuppy_hmm.webp",
-          "emojis": ["🤔","😐"]
-        },
-        {
-          "image_file": "11_Cuppy_upset.webp",
-          "emojis": ["😱","😵"]
-        },
-        {
-          "image_file": "12_Cuppy_angry.webp",
-          "emojis": ["😡","😠"]
-        },
-        {
-          "image_file": "13_Cuppy_curious.webp",
-          "emojis": ["❓","🤔"]
-        },
-        {
-          "image_file": "14_Cuppy_weird.webp",
-          "emojis": ["🌈","😜"]
-        },
-        {
-          "image_file": "15_Cuppy_bluescreen.webp",
-          "emojis": ["💻","😩"]
-        },
-        {
-          "image_file": "16_Cuppy_angry.webp",
-          "emojis": ["😡","😤"]
-        },
-        {
-          "image_file": "17_Cuppy_tired.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "18_Cuppy_workhard.webp",
-          "emojis": ["💻","🌃"]
-        },
-        {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": ["🎉","✨"]
-        },
-        {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": ["🤮","👎"]
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
-        },
-        {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
-        },
-        {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
-        }
-      ]
-    }
-  ]
-}
+    "android_play_store_link": "",
+    "ios_app_store_link": "",
+    "sticker_packs": [
+      {
+        "identifier": "memes_01",
+        "name": "Memes 1",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "memes_01.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "memes_01 (1).webp",
+            "emojis": ["✝","🤣"]
+          },
+          {
+            "image_file": "memes_01 (2).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (3).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (4).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (5).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (6).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (7).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (8).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (9).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (10).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (11).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (12).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (13).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (14).webp",
+            "emojis": ["😂","🤣"]
+          },
+          {
+            "image_file": "memes_01 (15).webp",
+            "emojis": ["😂","🤣"]
+          }
+        ]
+      },
+      {
+        "identifier": "random_01",
+        "name": "Random 1",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "random_01.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "random_01 (1).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (2).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (3).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (4).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (5).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (6).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (7).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (8).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (9).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (10).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (11).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (12).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (13).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (14).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (15).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (16).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (17).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (18).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (19).webp",
+            "emojis": ["🤣","😂"]
+          },
+          {
+            "image_file": "random_01 (20).webp",
+            "emojis": ["🤣","😂"]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_01",
+        "name": "Devotional 1",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_01.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_01 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (24).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_01 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_01 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_02",
+        "name": "Devotional 2",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_02.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_02 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_02 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_02 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_03",
+        "name": "Devotional 3",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_03.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_03 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_03 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_03 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_04",
+        "name": "Devotional 4",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_04.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_04 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_04 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_04 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_05",
+        "name": "Devotional 5",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_05.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_05 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_05 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_05 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_06",
+        "name": "Devotional 6",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_06.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_06 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_06 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (25).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (26).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (27).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (28).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (29).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_06 (30).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      },
+      {
+        "identifier": "devotional_07",
+        "name": "Devotional 7",
+        "publisher": "Sourav Choudhary",
+        "tray_image_file": "devotional_07.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "devotional_07 (1).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (2).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (3).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (4).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (5).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (6).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (7).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (8).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (9).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (10).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (11).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (12).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (13).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (14).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (15).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (16).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (17).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (18).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (19).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (20).webp",
+            "emojis": ["✝️","🕉️",""]
+          },
+          {
+            "image_file": "devotional_07 (21).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (22).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (23).webp",
+            "emojis": ["✝️","🕉️","☪️"]
+          },
+          {
+            "image_file": "devotional_07 (24).webp",
+            "emojis": ["✝️","🕉️",""]
+          }
+        ]
+      }
+    ]
+  }
+  
