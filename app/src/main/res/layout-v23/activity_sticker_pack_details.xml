@@ -18,7 +18,6 @@
         android:layout_marginRight="@dimen/preview_side_margin"
         android:layout_marginBottom="24dp">
 
-
         <ImageView
             android:id="@+id/tray_image"
             android:layout_width="36dp"
@@ -74,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/google_admob_banner_id">
+        ads:adUnitId="@string/google_admob_banner_ads_id_2">
     </com.google.android.gms.ads.AdView>
 
     <FrameLayout
