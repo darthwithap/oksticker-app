@@ -3,6 +3,32 @@
     "ios_app_store_link": "",
     "sticker_packs": [
       {
+        "identifier": "my_pack",
+        "name": "My Pack",
+        "publisher": "Parth Takkar",
+        "tray_image_file": "pack.png",
+        "image_data_version":"1",
+        "avoid_cache":false,
+        "publisher_email":"",
+        "publisher_website": "",
+        "privacy_policy_website": "",
+        "license_agreement_website": "",
+        "stickers": [
+          {
+            "image_file": "1pack.webp",
+            "emojis": ["✝","🤣"]
+          },
+          {
+            "image_file": "2pack.webp",
+            "emojis": ["✝","🤣"]
+          },
+          {
+            "image_file": "3pack.webp",
+            "emojis": ["✝","🤣"]
+          }
+        ]
+      },
+      {
         "identifier": "memes_01",
         "name": "Memes 1",
         "publisher": "Sourav Choudhary",
