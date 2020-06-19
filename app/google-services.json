@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "228752598708",
+    "firebase_url": "https://okstickerapp.firebaseio.com",
+    "project_id": "okstickerapp",
+    "storage_bucket": "okstickerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228752598708:android:5a928a568c902b74f159e1",
+        "android_client_info": {
+          "package_name": "com.darthwithap.okstickerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228752598708-1la5orfqtldakkf8ht2mqd6776egkush.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoVuVGMBN6asViGiDxcptj1c9wrlCHAIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228752598708-1la5orfqtldakkf8ht2mqd6776egkush.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

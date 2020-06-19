@@ -27,8 +27,6 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.formats.NativeAdOptions;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -46,6 +44,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private ArrayList<StickerPack> stickerPackList;
     private AdView mAdView;
     private TextView error_message;
+    private RecyclerView packRecyclerViewFirebase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +83,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         adLoader.loadAd(new AdRequest.Builder().build());
 
         packRecyclerView = findViewById(R.id.sticker_pack_list);
+        packRecyclerViewFirebase = findViewById(R.id.sticker_pack_list_firebase);
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
         error_message.setVisibility(View.GONE);

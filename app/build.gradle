@@ -10,6 +10,7 @@ android {
     defaultConfig {
         applicationId "com.darthwithap.okstickerapp"
         minSdkVersion 16
+        multiDexEnabled true
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -103,8 +104,11 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.google.android.gms:play-services-ads:19.1.0'
-    implementation 'com.google.firebase:firebase-ads:17.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.google.firebase:firebase-ads:19.1.0'
+    implementation 'org.jetbrains:annotations:15.0'
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

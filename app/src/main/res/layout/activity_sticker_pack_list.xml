@@ -28,4 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sticker_pack_list_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
