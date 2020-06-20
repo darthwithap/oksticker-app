@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "411916204926",
-    "firebase_url": "https://ok-stickers-app.firebaseio.com",
-    "project_id": "ok-stickers-app",
-    "storage_bucket": "ok-stickers-app.appspot.com"
+    "project_number": "1025035071125",
+    "firebase_url": "https://ok-sticker-app-830c7.firebaseio.com",
+    "project_id": "ok-sticker-app-830c7",
+    "storage_bucket": "ok-sticker-app-830c7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411916204926:android:5efd23cd5c4442e0b1912f",
+        "mobilesdk_app_id": "1:1025035071125:android:decd787c4fb8097e4eb59c",
         "android_client_info": {
           "package_name": "com.darthwithap.okstickerapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "411916204926-jltoo5dc428r4id22ghl7m7dno8j6bsa.apps.googleusercontent.com",
+          "client_id": "1025035071125-vuj9vt48fjh94lvmtll43k178abm1791.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAlkj3YUX5W5e8RcmEh5qUPQlA1Alwa-Xg"
+          "current_key": "AIzaSyDZ6FQdhNN2rpkQHDJB9E7iWpxTW0OqbTw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "411916204926-jltoo5dc428r4id22ghl7m7dno8j6bsa.apps.googleusercontent.com",
+              "client_id": "1025035071125-vuj9vt48fjh94lvmtll43k178abm1791.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

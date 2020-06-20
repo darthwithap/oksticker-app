@@ -12,6 +12,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -99,9 +101,30 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         showStickerPackList(stickerPackList);
         error_message.setVisibility(View.GONE);
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, stickerPackList.size()));
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+//            getSupportActionBar().setDisplayShowCustomEnabled(true);
+//            getSupportActionBar().setDisplayShowTitleEnabled(false);
+//            LayoutInflater inflator = LayoutInflater.from(this);
+            String title = getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, stickerPackList.size());
+            getSupportActionBar().setTitle(title);
+            //View view = inflator.inflate(R.layout.title_view, null);
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_open_whatsapp) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

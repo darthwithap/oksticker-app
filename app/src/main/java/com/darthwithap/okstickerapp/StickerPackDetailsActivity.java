@@ -13,7 +13,6 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.format.Formatter;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,8 +29,6 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.lang.ref.WeakReference;
 
@@ -63,6 +60,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private AdView mAdView;
     private InterstitialAd mInterstitialAd;
+    private InterstitialAd mInterstitialAd2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +79,9 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId(getString(R.string.google_admob_interstitial_ads_id));
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd2 = new InterstitialAd(this);
+        mInterstitialAd2.setAdUnitId(getString(R.string.google_admob_interstitial_ads_id_2));
+        mInterstitialAd2.loadAd(new AdRequest.Builder().build());
 
         boolean showUpButton = getIntent().getBooleanExtra(EXTRA_SHOW_UP_BUTTON, false);
         stickerPack = getIntent().getParcelableExtra(EXTRA_STICKER_PACK_DATA);
@@ -135,6 +136,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.action_info && stickerPack != null) {
+            if (mInterstitialAd2.isLoaded()) mInterstitialAd2.show();
             Uri trayIconUri = StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile);
             launchInfoActivity(stickerPack.publisherWebsite, stickerPack.publisherEmail, stickerPack.privacyPolicyWebsite, stickerPack.licenseAgreementWebsite, trayIconUri.toString());
             return true;

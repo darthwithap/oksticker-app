@@ -7,6 +7,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+        <item name="android:textViewStyle">@style/BalooTextViewStyle</item>
+        <item name="android:buttonStyle">@style/BalooButtonStyle</item>
+    </style>
+
+    <style name="BalooTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/baloo_paaji</item>
+    </style>
+
+    <style name="BalooButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/baloo_paaji</item>
     </style>
 
     <style name="AppTheme.Splash" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
