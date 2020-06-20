@@ -34,10 +34,12 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
     private final OnAddButtonClickedListener onAddButtonClickedListener;
     private int maxNumberOfStickersInARow;
     private int minMarginBetweenImages;
+    private Analytics analytics;
 
-    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener) {
+    StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener, Context context) {
         this.stickerPacks = stickerPacks;
         this.onAddButtonClickedListener = onAddButtonClickedListener;
+        analytics = new Analytics(context);
     }
 
     @NonNull
@@ -62,6 +64,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
             intent.putExtra(StickerPackDetailsActivity.EXTRA_SHOW_UP_BUTTON, true);
             intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_DATA, pack);
             view.getContext().startActivity(intent);
+            analytics.logEvent(Analytics.VIEW_ITEM, "sticker_pack", pack.name);
         });
         viewHolder.imageRowView.removeAllViews();
         //if this sticker pack contains less stickers than the max, then take the smaller size.

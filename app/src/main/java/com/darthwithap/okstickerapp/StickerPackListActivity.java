@@ -11,6 +11,7 @@ package com.darthwithap.okstickerapp;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -27,6 +28,8 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.formats.NativeAdOptions;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -37,6 +40,7 @@ import java.util.List;
 public class StickerPackListActivity extends AddStickerPackActivity {
     public static final String EXTRA_STICKER_PACK_LIST_DATA = "sticker_pack_list";
     private static final int STICKER_PREVIEW_DISPLAY_LIMIT = 5;
+    private static final String TAG = "Anlytics";
     private LinearLayoutManager packLayoutManager;
     private RecyclerView packRecyclerView;
     private StickerPackListAdapter allStickerPacksListAdapter;
@@ -45,6 +49,8 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private AdView mAdView;
     private TextView error_message;
     private RecyclerView packRecyclerViewFirebase;
+    private Tracker mTracker;
+    public Analytics analytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +65,11 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         adView.setAdUnitId(getString(R.string.google_admob_banner_ads_id));
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        analytics = new Analytics(this);
+        analytics.logAppStart();
+        AnalyticsApplication application = new AnalyticsApplication(this);
+        mTracker = application.getDefaultTracker();
 
         AdLoader adLoader = new AdLoader.Builder(this, getString(R.string.google_admob_native_ads_id))
                 .forUnifiedNativeAd(new UnifiedNativeAd.OnUnifiedNativeAdLoadedListener() {
@@ -98,6 +109,9 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         super.onResume();
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPackList.toArray(new StickerPack[0]));
+        Log.i(TAG, "Setting screen name: " + "StickerPackList");
+        mTracker.setScreenName("Image~" + "StickerPackList");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
     }
 
     @Override
@@ -109,7 +123,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
-        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener);
+        allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener, getApplicationContext());
         packRecyclerView.setAdapter(allStickerPacksListAdapter);
         packLayoutManager = new LinearLayoutManager(this);
         packLayoutManager.setOrientation(RecyclerView.VERTICAL);
